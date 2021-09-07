@@ -1,0 +1,60 @@
+body {
+    background-color: rgba(11, 7, 243, 0.589);
+    animation: name 10s linear infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/images.jpg);
+}
+
+
+@keyframes name {
+    25% {
+       background-image: url(./img/images1.jpg);
+    }
+
+    50%{
+        background-image: url(./img/images2.jpg);
+    }
+    75%{
+        background-image: url(./img/images4.png);
+    }
+
+    100%{
+        background-image: url(./img/images7.jpg);
+    }
+}
+
+
+p{
+    margin-top: 50vh;
+    text-align: center;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 40px;
+}
+p {
+    animation: p 5s linear infinite;
+}
+
+@keyframes p {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-position: center;
+      background-repeat: repeat;
+    }
+    p{
+        font-size: 14px;
+    }
+  }
