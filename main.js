@@ -6,7 +6,6 @@ var tel = prompt("telni kiriting", "+998902060690").trim();
 var end = alert("saytimizdan foydalanishingiz mumkin 😎");
 
 
-
 if (fistName != null) {
     document.getElementById("ism").innerHTML =
         "Salom " + fistName + " davom etishingiz mumkin";

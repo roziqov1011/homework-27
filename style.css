@@ -1,25 +1,27 @@
 body {
+    background-color: rgb(78, 50, 206);
     animation: name 5s linear infinite;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./img/images.jpg);
+    background-position-y: -80px;
+    background-image: url(./img/bg.png);
 }
 
 
 @keyframes name {
     25% {
-       background-image: url(./img/images1.jpg);
+        background-color: #ce11a5;
     }
 
     50%{
-        background-image: url(./img/images2.jpg);
+        background-color: #aa00ff;
     }
     75%{
-        background-image: url(./img/images4.png);
+        background-color: #00995c;
     }
 
     100%{
-        background-image: url(./img/images7.jpg);
+        background-color: #cc00cc;
     }
 }
 
@@ -35,7 +37,7 @@ p{
     font-size: 39px;
 }
 p {
-    animation: p 10s linear infinite;
+    animation: p 5s linear infinite;
 }
 
 @keyframes p {
@@ -52,6 +54,7 @@ p {
     body {
       background-position: center;
       background-repeat: repeat;
+      background-size: 400px;
     }
     p{
         font-size: 14px;
